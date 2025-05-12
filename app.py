@@ -21,7 +21,7 @@ st.set_page_config(
 @st.cache_data
 def load_data():
     # GitHub raw URL'si üzerinden veri çekiliyor
-    input_file_path = 'https://raw.githubusercontent.com/AllahsizHuseyin/bgtproje/main/KDDTrain%2B.txt'
+    input_file_path = 'https://raw.githubusercontent.com/HuseyinAliYigit/bgtproje/refs/heads/main/KDDTrain%2B.txt'
     
     try:
         # Veriyi pandas ile oku
